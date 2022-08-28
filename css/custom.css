@@ -94,6 +94,11 @@ p {
   margin-top: 50px;
 }
 
+/*
+Technical Portfolio Bubble START
+*/
+
+
 .tpb-tag {
   border-style: solid;
   border-width: 2px 2px;
@@ -114,6 +119,7 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
 
 .td-spaced {
   /* margin-left: 100px;
@@ -179,6 +185,10 @@ p {
   word-wrap: break-word;
 }
 
+/*
+Technical Portfolio Bubble END
+*/
+
 .right {
   text-align: right;
 }
@@ -187,6 +197,15 @@ p {
   text-align: center;
 }
 
+#canvas_container {
+  width: 800px;
+  height: 450px;
+  overflow: auto;
+}
+
+#pdf_renderer {
+  margin-top: -50px;
+}
 
 /* hr.style1{
 	border-top: 1px solid #8c8b8b;
