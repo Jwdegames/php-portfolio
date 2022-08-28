@@ -26,7 +26,7 @@ include 'res/nav.php';
 <div id="pg-content">
 <h1 style = "text-align:center;">Jacob's Test Website!</h1>
 <h2><u><b>Welcome <?php echo $_COOKIE['username']?>!</b></u></h2>
-<div style ="width 75%; display:table;">
+<div style ="width: 75%; display:table;">
     <div style ="display: table-row;">
     	<div id = "history-table" style="display:table-cell;"></div>
     

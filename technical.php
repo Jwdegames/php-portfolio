@@ -74,6 +74,17 @@
             <p></p>
             <?php
                 $description = 
+                    "The Goodwin Model simulator simulates the relationship between wage share and employment. It does this by displaying 
+                    graphs in Python that implement higher level math concepts such as Lambert functions, McLaurin series, and differential equations.
+                    Additionally, there are a couple of guides included that explain the economic concepts, as well as the derivations of the features
+                    shown in the graphs. This can either be run with a console or the .exe in the GitHub releases page can be excuted.";
+                $tags = ["Python", "Economics", "Simulator", "Visualizer", "Calculus"];
+                createTPBubble("Goodwin Model Simulator", "Apr 2022", "Apr 2022", "tech-imgs/GoodwinModelSimulator.png", "600px", "400px",
+                    $description, "https://github.com/Jwdegames/GoodwinModel", $tags);
+            ?>
+            <p></p>
+            <?php
+                $description = 
                     "The Cache Simulator simulates how different cache properties affect a cache. 
                     This program is ran by executing Python through a command line. 
                     The user can set the cache's size, data block size, associativity, replacement policy, write hit policy, and write miss policy. 
