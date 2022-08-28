@@ -27,7 +27,7 @@ include $res . "/nav.php";
 
 	<!--Set Active Page to 'active' in navbar (imported from nav.php)-->
 	  <script type="text/javascript">
-		document.getElementById('nav-bar-technical').setAttribute('class', 'active nav-item');
+		document.getElementById('nav-bar-technical').setAttribute('class', 'active nav-item dropdown');
 	 </script>
 
 <body>

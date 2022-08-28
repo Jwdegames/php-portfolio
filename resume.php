@@ -13,7 +13,7 @@
 
 <!--Set Active Page to 'active' in navbar (imported from nav.php)-->
 	<script type="text/javascript">
-	document.getElementById('nav-bar-home').setAttribute('class', 'active nav-item');
+	document.getElementById('nav-bar-resume').setAttribute('class', 'active nav-item');
 	</script>
 
 	<body>

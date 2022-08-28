@@ -1,7 +1,3 @@
-<!--
-    Jacob's Test Website's Footer
-    Bootstrap v4.1
--->
 <!--Top Navigation Bar-->
     <nav class="navbar navbar-expand-md  navbar-dark navbar-inverse">
     <!-- <nav class="navbar navbar-expand-md" id="navbar" style="background-color: #555"> -->
@@ -18,7 +14,22 @@
             <div class="collapse navbar-collapse" id="mainNavBar">
                 <ul class="navbar-nav">
                     <li class="nav-item" id="nav-bar-home"><a class="nav-link" href=<?php echo $backup ."index.php"?>>About</a></li>
-                    <li class="nav-item" id="nav-bar-technical"><a class="nav-link" href=<?php echo $backup ."technical.php"?>>Technical Portfolio</a></li>
+                    <!-- <li class="nav-item" id="nav-bar-technical"><a class="nav-link" href=<?//php echo $backup ."technical.php"?>>Technical Portfolio</a></li> -->
+					<li class="nav-item dropdown" id = "nav-bar-technical">
+							<a class = "nav-link" href=<?php echo $backup ."technical.php"?>> Technical Portfolio 
+							<i class="fa fa-caret-down" style="color: white;"></i></a>
+
+                        <ul class="dropdown-menu">
+							<li><a href = <?php echo $backup . "technical.php"?>>Portfolio</li>
+                            <li><a href = "https://career-walrus.herokuapp.com/">Career Walrus</a></li>
+                            <li><a href = "https://github.com/Jwdegames/GoodwinModel">Goodwin Model Simulator</a></li>
+                            <li><a href = "https://github.com/Jwdegames/CacheSimulator">Cache Simulator</a></li>
+							<li><a href = <?php echo $backup . "technical/OfTheValiant/of_the_valiant.php"?>>Of The Valiant</a></li>
+							<li><a href = <?php echo $backup . "technical/edge_glider.php"?>>Edge Glider</a></li>
+							<li><a href = <?php echo $backup . "technical/bfs_helper.php"?>>BFS Helper</a></li>
+							<li><a href = <?php echo $backup . "technical/PolygonPuzzles/polygon_puzzles.php"?>>Polygon Puzzles</a></li>
+                        </ul>
+					</li>
                     <li class="nav-item" id="nav-bar-resume"><a class="nav-link" href=<?php echo $backup ."resume.php"?>>Resume</a></li>
 					<!-- <li class="nav-item" id="nav-bar-hobbies"><a class="nav-link" href="hobbies.php">Hobbies</a></li> -->
                     <!--dropdown menu

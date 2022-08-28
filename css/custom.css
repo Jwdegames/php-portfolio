@@ -49,12 +49,34 @@ nav .navbar-nav li a{
   color: white;
 }
 
-nav .navbar-nav .dropdown-menu a{
+/* nav .navbar-nav .dropdown-menu a{
   color: black;
-}
+} */
 
 nav .navbar-header a{
   color: white !important;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu:hover {
+  display: block;
+}
+
+.dropdown {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* .dropdown:hover {
+  background-color: black;
+} */
+
+.dropdown-menu {
+  background-color: red;
+  margin-top: -1px;
 }
 
 /* Nav Bar Ends Here*/
@@ -120,13 +142,6 @@ Technical Portfolio Bubble START
   margin-right: auto;
 }
 
-
-.td-spaced {
-  /* margin-left: 100px;
-  margin-right: 100px; */
-  /* white-space: no-wrap; */
-}
-
 .tbp-left {
   padding-left: 100px;
   width: 600px;
@@ -146,11 +161,6 @@ Technical Portfolio Bubble START
   border-radius: 20px; */
   margin-left: -90px;
   margin-right: -90px;
-}
-
-.tbp-row {
-  /* white-space: nowrap; */
-  
 }
 
 .tp-bubble {
@@ -198,14 +208,20 @@ Technical Portfolio Bubble END
 }
 
 #canvas_container {
-  width: 800px;
-  height: 450px;
+  /* width: 800px;
+  height: 450px; */
   overflow: auto;
 }
 
-#pdf_renderer {
-  margin-top: -50px;
+.valiantGC {
+  width: 957px !important;
+  height: 518px !important;
+  margin-top: 100px !important;
 }
+
+/* #pdf_renderer {
+  margin-top: -50px;
+} */
 
 /* hr.style1{
 	border-top: 1px solid #8c8b8b;

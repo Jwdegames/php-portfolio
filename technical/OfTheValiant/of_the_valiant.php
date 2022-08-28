@@ -27,7 +27,7 @@ include $res . "/nav.php";
 
 	<!--Set Active Page to 'active' in navbar (imported from nav.php)-->
 	  <script type="text/javascript">
-		document.getElementById('nav-bar-technical').setAttribute('class', 'active nav-item');
+		document.getElementById('nav-bar-technical').setAttribute('class', 'active nav-item dropdown');
 	 </script>
 
 <body>
@@ -42,7 +42,7 @@ include $res . "/nav.php";
 
 
         <div class="webgl-content">
-          <div id="gameContainer" style="width: 957; height: 518; margin-top: 100px; align:bottom;"></div>
+          <div id="gameContainer" class = "valiantGC" style="width: 957; height: 518; align:bottom;"></div>
           <div class="footer">
             <div class="webgl-logo"></div>
             <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
