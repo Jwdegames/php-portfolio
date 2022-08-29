@@ -1,3 +1,15 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+html, body {
+  height:100%;
+  
+  display:flex;
+  flex-direction:column;
+}
+
 body {
 	margin: 0;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
@@ -113,7 +125,14 @@ p {
 #content {
   margin-left: 200px;
   margin-right: 200px;
-  margin-top: 50px;
+}
+
+#content-background {
+  background: linear-gradient(135deg, lightblue, lightpink, salmon, lightblue);
+  background-size: 100% 100%, 100% 100%;
+  margin-top: -50px;
+  padding-top: 100px;
+  flex-grow: 1;
 }
 
 /*
@@ -170,6 +189,8 @@ Technical Portfolio Bubble START
   border-radius: 20px;
 
   background-color: lightgrey;
+  background: linear-gradient(45deg, salmon, lightgrey, red, blue);
+  background-size: 250% 250%, 100% 100%;
 }
 
 .tbp-desc {

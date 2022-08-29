@@ -16,7 +16,7 @@
 	document.getElementById('nav-bar-technical').setAttribute('class', 'active nav-item dropdown');
 	</script>
 
-	<body>
+	<div id = "content-background">
 		<div id = "content">
             <?php
                 // Generate a Bubble that contains the info about a project.
@@ -144,5 +144,6 @@
                     $description, "technical/PolygonPuzzles/polygon_puzzles.php", $tags);
             ?>
 		</div>
-	</body>
+    </div>
+</body>
 </html>

@@ -15,7 +15,7 @@
 	document.getElementById('nav-bar-home').setAttribute('class', 'active nav-item');
 	</script>
 
-	<body>
+	<div id = "content-background">
 		<div id = "content">
 			<h2><u><b>About Me</b></u></h2>
 
@@ -36,5 +36,6 @@
 				Youth Expanding Services (Y.E.S) program, where I volunteered for various organizations.
 			</p>
 		</div>
-	</body>
+	</div>
+</body>
 </html>

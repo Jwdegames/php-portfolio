@@ -16,7 +16,7 @@
 	document.getElementById('nav-bar-resume').setAttribute('class', 'active nav-item');
 	</script>
 
-	<body>
+	<div id = "content-background">
 		<div id = "content">
 			<h2><u><b>Resume</b></u></h2>
             <div id="my_pdf_viewer" class = "center">
@@ -78,5 +78,6 @@
 
         </script>
 		</div>
-	</body>
+    </div>
+</body>
 </html>
