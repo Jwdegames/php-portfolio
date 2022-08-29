@@ -31,6 +31,16 @@
                         </ul>
 					</li>
                     <li class="nav-item" id="nav-bar-resume"><a class="nav-link" href=<?php echo $backup ."resume.php"?>>Resume</a></li>
+					<li class="nav-item dropdown" id = "nav-bar-resume">
+							<a class = "nav-link" href="#"> Contact 
+							<i class="fa fa-caret-down" style="color: white;"></i></a>
+
+                        <ul class="dropdown-menu">
+							<li><a href = "https://github.com/Jwdegames">GitHub</li>
+                            <li><a href = "https://www.linkedin.com/in/jacobwde/">LinkedIn</a></li>
+                            <li><a href = "mailto: jacobwde12@gmail.com">Email</a></li>
+                        </ul>
+					</li>
 					<!-- <li class="nav-item" id="nav-bar-hobbies"><a class="nav-link" href="hobbies.php">Hobbies</a></li> -->
                     <!--dropdown menu
                     <li class="dropdown">
