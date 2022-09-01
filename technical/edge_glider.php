@@ -24,8 +24,8 @@ include $res . "/nav.php";
 		document.getElementById('nav-bar-technical').setAttribute('class', 'active nav-item dropdown');
 	 </script>
 
-<body>
-  <div id="content">
+<div id = "content-background">
+  <div id = "content">
     <h2><u><b>Edge Glider</b></u></h2>
 
     <p class = "center">Edge Glider is a playable Java game made in 2019 where you play as a square 
@@ -33,10 +33,10 @@ include $res . "/nav.php";
         otherwise you will lose! Use the arrow keys to move. <a href = "edgeglider.jar">Download</a>&nbsp;
         <a href = "https://github.com/Jwdegames/EdgeGlider">GitHub</a>
     </p>
+  </div>
 
 
-
-</body>
+</div>
 	
 </script>
 		

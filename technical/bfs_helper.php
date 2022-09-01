@@ -24,18 +24,18 @@ include $res . "/nav.php";
 		document.getElementById('nav-bar-technical').setAttribute('class', 'active nav-item dropdown');
 	 </script>
 
-<body>
-  <div id="content">
+<div id = "content-background">
+  <div id = "content">
     <h2><u><b>BFS Helper</b></u></h2>
 
     <p class = "center">The Breadth First Search Helper is a program that helps to allow you visualize Breadth First Searches. 
         You may have to run the program a few times before it will work though due to some odd Java bug. <a href = "bfshelper.jar">Download</a>&nbsp;
         <a href = "https://github.com/Jwdegames/BreadthFirstSearchHelper">GitHub</a>
     </p>
+  </div>
 
 
-
-</body>
+</div>
 	
 </script>
 		

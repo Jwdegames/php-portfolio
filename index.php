@@ -2,8 +2,33 @@
     include "res/head.php";  
 ?>
 
-<?php 
-    include "res/login.php";  
+<?php include $backup . "chat-simulator/chat-app/db_config.php";?>
+<?php
+//Attempt to connect to MySQL database 
+// $connect = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+// $dbs = mysqli_query($connect, "SHOW DATABASES");
+// print_r($dbs);
+
+// while( $row = $dbs->fetch_array() )
+// {
+//     print_r($row);
+//     echo "<br />";
+// }
+// if ($connect === false){
+// 	echo "Error!";
+//     die("ERROR: Could not connect. " . mysqli_connect_error());
+// }
+
+// $username = "Tr1n3ty";
+// $password = "Th!rdsT1m3Th3Ch4rm!";
+// $select_data=mysqli_query($connect,"select * from users where username='$username' and pass='$password'");
+//     $has_user = mysqli_query($connect,"select * from users where username='$username'");
+//     if ($row = mysqli_fetch_row($has_user)) {
+// 		print_r($row);
+// 	}
+// 	else {
+// 		print_r("Error: Username");
+// 	}
 ?>
 <!-- Navigation Bar -->
 <?php

@@ -2,10 +2,6 @@
     include "res/head.php";  
 ?>
 
-
-<?php 
-    include "res/login.php";  
-?>
 <!-- Navigation Bar -->
 <?php
 	include 'res/nav.php';

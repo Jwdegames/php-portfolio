@@ -55,115 +55,12 @@
 
                 <!--Right aligned stuff-->
                 <ul class="nav navbar-nav ml-auto">
-                	<li class="nav-item" id="nav-chat"><a class="nav-link" href="chat.php" id="chat-link" style="display:none">Chat</a></li>
-                	<li class="nav-item" id="nav-login-user"><a class="nav-link" href="profile.php" id="user-link"></a></li>
-                    <!-- <li class="nav-item" id="nav-login-toggle"><a class="nav-link" href="#" id="login-link">Login</a></li> -->
-                    
+					<?php include $backup . "chat-simulator/chat-app/login_nav.php" ?>
                 </ul>
 
             </div>
         </div>
     </nav>
-<!-- Script for login button -->
-<!-- <script>
-function getCookie(cname) {
-	  var name = cname + "=";
-	  var decodedCookie = decodeURIComponent(document.cookie);
-	  var ca = decodedCookie.split(';');
-	  for(var i = 0; i <ca.length; i++) {
-	    var c = ca[i];
-	    while (c.charAt(0) == ' ') {
-	      c = c.substring(1);
-	    }
-	    if (c.indexOf(name) == 0) {
-	      return c.substring(name.length, c.length);
-	    }
-	  }
-	  return "";
-	}
-	
-	var loginTop;
-    jQuery.fn.shakeLogin = function() {
-        this.each(function(i) {
-            loginTop = (loginTop==undefined)?$(this).position().top:loginTop;
-            var t = loginTop;
-            //var t = 299.5;
-            for (var x = 1; x <= 3; x++) {
-                $(this).animate({
-                    top: t + 43
-                }, 10).animate({
-                    top: t + 23
-                }, 50).animate({
-                    top: t + 23
-                }, 10).animate({
-                    top: t + 13
-                }, 50).animate({
-					top: t
-                }, {duration: 50, done: function() {
-						openLogin = true;
-						//alert("animation done");
-            	}
-                })
-        };
-        return this;
-    })
-    }
-
-	var loginBtn = document.getElementById("nav-login-toggle");
-	var loginForm = document.getElementById("login-form");
-	var openLogin = true;
-	$(document).ready(function() {
-		var loginstats = getCookie("loggedin");
-		console.log(loginstats);
-		if (loginstats == "true") {
-			$("#user-link").text(getCookie("username"));
-			$("#chat-link").css("display","");
-			$("#login-link").text("Logout");
-		}
-	});
-	loginBtn.addEventListener("click", function(){
-			if ($("#login-link").text() == "Logout") {
-				var ajaxurl = 'res/logout_code.php';
-	            console.log("Logging Out");
-	            data =  {do_logout: "do_logout"};
-	            // Perform Login to Server
-	            $.ajax({type:'post',url:ajaxurl, data, success:function (response) {
-				
-	            	}
-				});
-	            $("#login-link").text("Login");
-                $("#user-link").text("");
-                $("#chat-link").css("display","none");
-                document.cookie = "loggedin = "+false;
-                <?php $_SESSION['loggedin']= 0;?>
-
-                //If we are in the profile page, send us to main page
-                var path = window.location.pathname;
-				var page = path.split("/").pop();
-				var origpath = path.substring(0,path.length-page.length);
-				
-				console.log("Logging out on "+page);
-				if (page == "profile.php" || page=="chat.php") {
-					window.location.href = origpath + "index.php";
-				}
-				
-				return;
-			}
-		  	if (loginForm.style.display == "none") {
-				loginForm.style.display = "";
-				//Hide all elements
-				document.body.childNodes.forEach(function(element) {
-					if (element.id == "pg-content") {
-						element.style.display = "none";
-					}
-			  	});
-		  	}
-		  	else {
-			  	if (openLogin) {
-			  		$("#login-form").shakeLogin();
-			  		openLogin = false;
-			  	}
-			  	
-		  	}
-		});
-</script> -->
+<!-- Script for login form -->
+<?php include $backup . "chat-simulator/chat-app/login_form.php" ?>
+<?php include $backup . "chat-simulator/chat-app/login_form_features.php" ?>

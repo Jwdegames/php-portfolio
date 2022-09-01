@@ -30,8 +30,8 @@ include $res . "/nav.php";
 		document.getElementById('nav-bar-technical').setAttribute('class', 'active nav-item dropdown');
 	 </script>
 
-<body>
-  <div id="content">
+<div id = "content-background">
+  <div id = "content">
     <h2><u><b>Of The Valiant</b></u></h2>
 
     <p class>Of The Valiant is a prototype game where you control a set of units and must defeat the other side. 
@@ -50,7 +50,7 @@ include $res . "/nav.php";
           </div>
         </div>
     </div>
-</body>
+</div>
 	
 </script>
 		
