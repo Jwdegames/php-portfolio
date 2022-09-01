@@ -7,7 +7,7 @@
               <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mainNavBar">
                   <span class="navbar-toggler-icon"></span>
               </button>
-              <a href="index.php" class="navbar-brand">Jacob Enerio</a>
+              <a href=<?php echo $backup ."index.php"?> class="navbar-brand">Jacob Enerio</a>
           </div>
 
             <!--Menu Bar-->
