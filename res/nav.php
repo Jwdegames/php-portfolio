@@ -21,6 +21,7 @@
 
                         <ul class="dropdown-menu">
 							<li><a href = <?php echo $backup . "technical.php"?>>Portfolio</li>
+							<li><a href = <?php echo $backup . "chat-simulator/chat-app/index.php"?>>Chat App</li>
                             <li><a href = "https://career-walrus.herokuapp.com/">Career Walrus</a></li>
                             <li><a href = "https://github.com/Jwdegames/GoodwinModel">Goodwin Model Simulator</a></li>
                             <li><a href = "https://github.com/Jwdegames/CacheSimulator">Cache Simulator</a></li>
