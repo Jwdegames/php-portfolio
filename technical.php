@@ -59,6 +59,17 @@
 
             <?php
                 $description = 
+                    "The proof of concept chat app allows users to chat. The backend uses PHP and MySQL, and JavaScript and Ajax are used to communicate with the backend.
+                    There are global and private chats for users to send messages. There is also a log of when the user logs in and out so they can see if somebody got 
+                    illicit access to their account. Additionally, this chat app features administrators that can ban users if they misbehave and also help change the
+                    username and passwords of another account.";
+                $tags = ["PHP", "MySQL", "Proof of Concept", "Ajax", "JavaScript", "Chatting"];
+                createTPBubble("Chat App", "Sep 2022", "Sep 2022", "tech-imgs/ChatApp.png", "600px", "400px",
+                    $description, "chat-simulator/chat-app/index.php", $tags);
+            ?>
+            <p></p>
+            <?php
+                $description = 
                     "Career Walrus is an online resource for consolidating career information for engineering students. It was designed
                     in React TypeScript and is hosted on Heroku. I worked on this project with 3 other people. We used an Agile methodology, and I helped to
                     maintain the product and sprint backlogs and burndown charts. Additionally, I contributed the cost of living information
